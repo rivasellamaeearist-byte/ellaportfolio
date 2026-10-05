@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Home | Ella Mae Rivas</title>
+  <meta name="description" content="Portfolio of Ella Mae Rivas, UI/UX Designer.">
+
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="favicon.ico" sizes="any">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@400;500;700&family=Pinyon+Script&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <script>
+    try {
+      document.documentElement.dataset.theme =
+        localStorage.getItem('theme') || 'dark';
+    } catch (e) {
+      document.documentElement.dataset.theme = 'dark';
+    }
+  </script>
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header class="bar" id="top">
+    <a href="index.html" class="brand">
+      <span class="avatar">
+        <img src="loc.png" alt="Ella Mae Rivas">
+       
+      </span>
+
+      <span class="name">
+       
+      </span>
+    </a>
+
+    <nav class="nav" aria-label="Main">
+      <a href="index.html" aria-current="page">Home</a>
+      <a href="about.html">About</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html">Contact</a>
+
+      <button
+        class="switch"
+        id="themeSwitch"
+        role="switch"
+        aria-checked="false"
+        aria-label="Dark mode"
+      >
+        <span id="swLabel">Dark</span>
+        <span class="knob"></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- Hero Section -->
+    <section class="poster">
+      <div class="hero-word" aria-hidden="true">PORTFOLIO</div>
+
+      <figure class="portrait">
+        <img src="gpt.png" alt="Portrait of Ella Mae Rivas">
+      </figure>
+
+      <div class="hero-intro">
+        <span class="intro-label">Hello, I'm</span>
+        <h2>ELLA</h2>
+        <h3>UI/UX DESIGNER</h3>
+
+        <p>
+          I design meaningful digital experiences that are user-centered,
+          visually engaging, and built to solve real problems. From research
+          to interface, I craft designs that connect and convert.
+        </p>
+      </div>
+    </section>
+
+    <!-- Selected Work -->
+    <section class="selected">
+      <div class="section-heading">
+        <h2>Selected <em>Work</em></h2>
+        <a href="projects.html">View all projects →</a>
+      </div> <div class="about-title">
+</div>
+
+      <div class="project-grid">
+
+        <a class="project-card" data-tilt="8" href="projects.html#the-cozy">
+          <img src="images/cozy.jpeg" alt="The Cozy project preview">
+          <div>
+            <span>01 · E-commerce</span>
+            <h3>The Cozy</h3>
+            <p>Warm and simple shopping experience.</p>
+          </div>
+        </a>    
+
+        <a class="project-card" data-tilt="8" href="projects.html#autospecs">
+          <img src="images/auto1.jpeg" alt="AutoSpecs project preview">
+          <div>
+            <span>02 · Automotive</span>
+            <h3>AutoSpecs</h3>
+            <p>Modern interface for discovering cars and specs.</p>
+          </div>
+        </a>
+
+        <a class="project-card" data-tilt="8"href="projects.html#kix">
+          <img src="images/kix1.png" alt="KIX project preview">
+          <div>
+            <span>03 · Product / Brand</span>
+            <h3>KIX</h3>
+            <p>Bold visual direction and digital concept.</p>
+          </div>
+        </a>
+
+        <a class="project-card" data-tilt="8"href="projects.html#pimps">
+          <img src="images/gym1.png" alt="ERICK'S GYM project preview">
+          <div>
+            <span>04 · Creative</span>
+            <h3>ERICK'S GYM</h3>
+            <p>Creative layout, branding and experience.</p>
+          </div>
+        </a>
+
+      </div>
+    </section>
+
+    <!-- Tools Section -->
+    <section class="tools-section">
+      <div class="tools-heading">
+        <span class="eyebrow">MY CREATIVE TOOLKIT</span>
+        <h2>TOOLS I <em>use</em></h2>
+
+        <p>
+          The tools and languange I use to design, develop, and bring
+          my digital ideas to life.
+        </p>
+      </div>
+
+      <div class="tools-list">
+
+  <div class="tool-item">
+    <span class="tool-icon html-icon"><img src="images/tools/html5.svg" alt=""></span>
+    <strong>HTML</strong>
+  </div>
+
+  <div class="tool-item">
+    <span class="tool-icon css-icon"><img src="images/tools/css.svg" alt=""></span>
+    <strong>CSS</strong>
+  </div>
+
+  <div class="tool-item">
+    <span class="tool-icon js-icon"><img src="images/tools/javascript.svg" alt=""></span>
+    <strong>JavaScript</strong>
+  </div>
+
+  <div class="tool-item">
+    <span class="tool-icon sql-icon"><img src="images/tools/mysql.svg" alt=""></span>
+    <strong>SQL</strong>
+  </div>
+
+  <div class="tool-item">
+    <span class="tool-icon xampp-icon"><img src="images/tools/xampp.svg" alt=""></span>
+    <strong>XAMPP</strong>
+  </div>
+
+  <div class="tool-item">
+    <span class="tool-icon figma-icon"><img src="images/tools/figma.svg" alt=""></span>
+    <strong>Figma</strong>
+  </div>
+  
+</div>
+
+</div>
+      </div>
+    </section>
+
+    <!-- Work With Me -->
+    <section class="work-with-me">
+      <div>
+        <span class="eyebrow">LET'S CREATE SOMETHING</span>
+        <h2>Work with <em>me</em></h2>
+
+        <p>
+          Have a project, concept, or idea you want to turn into a digital
+          experience? Let's talk.
+        </p>
+      </div>
+
+      <div class="contact-links">
+
+        <a href="mailto:rivasellamae@gmail.com">
+          <span>Email</span>
+          <strong>rivasellamae@gmail.com</strong>
+        </a>
+
+        <a
+          href="https://www.instagram.com/myshellafine/"
+          target="_blank"
+          rel="noopener"
+        >
+          <span>Instagram</span>
+          <strong>@myshellafine</strong>
+        </a>
+
+        <a
+          href="https://www.facebook.com/share/1SxE12iCMh/"
+          target="_blank"
+          rel="noopener"
+        >
+          <span>Facebook</span>
+          <strong>Ella Mae Rivas</strong>
+        </a>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Resume Section -->
+  <section class="resume-section">
+    <div class="resume-content">
+      <span class="eyebrow">A LITTLE MORE ABOUT ME</span>
+
+      <h2>
+        LET'S TAKE A LOOK<br>
+        AT MY <em>resume.</em>
+      </h2>
+
+      <p>
+        Want to know more about my background, skills, and experience?
+        Feel free to view or download my resume.
+      </p>
+
+      <a class="resume-button" href="assets/resume.jpg" download>
+        <span>Download My Resume</span>
+        <span class="download-icon">↓</span>
+      </a>
+
+      <small class="resume-note">Hire me!</small>
+    </div>
+
+    <div class="qr-container">
+      
+      <span class="qr-label">SCAN ME</span>
+<img class="qr-image" src="assets/arayquh.png" alt="QR code to view Ella Mae Rivas' resume">
+
+<a class="back-top" href="#top">
+  <span>Back to Top</span>
+  <span class="back-top-icon" aria-hidden="true">↑</span>
+</a>
+</div>
+    </div>
+  </section>
+
+ <footer class="foot"><p>© 2026 Ella Mae Rivas</p></footer>
+
+<script src="./js/script.js"></script>
+<script src="./js/reveal.js"></script>
+</body>
+</html>

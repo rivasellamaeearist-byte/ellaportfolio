@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Projects | Ella Mae Rivas</title>
+<meta name="description" content="Selected UI/UX and web projects by Ella Mae Rivas.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@400;500;700&family=Pinyon+Script&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<script>try{var t=localStorage.getItem('theme')||'dark';document.documentElement.dataset.theme=t}catch(e){document.documentElement.dataset.theme='dark'}</script>
+</head>
+<body>
+<header class="bar">
+  <a href="index.html" class="brand">
+    <span class="avatar"><img src="loc.png" alt="Ella Mae Rivas"><b></b></span>
+    <span class="name"><small></small></span>
+  </a>
+  <nav class="nav" aria-label="Main">
+    <a href="index.html">Home</a><a href="about.html">About</a><a href="projects.html" aria-current="page">Projects</a><a href="contact.html">Contact</a>
+    <button class="switch" id="themeSwitch" role="switch" aria-checked="false" aria-label="Dark mode"><span id="swLabel">Dark</span><span class="knob"></span></button>
+  </nav>
+</header>
+
+<main>
+<div class="ptitle"><h1>Projects</h1><span class="script" aria-hidden="true">selected</span></div>
+<section class="wrap project-list">
+<article class="project-box project-open" id="the-cozy" tabindex="0" role="button" aria-label="Open the cozy project gallery" data-gallery="images/cozy.jpeg, images/coz2.jpeg, images/coz3.jpeg">
+    <img src="images/cozy.jpeg" alt="The Cozy project preview">
+    <div class="project-info"><span>01 · E-commerce</span><h2>The Cozy</h2><p>A cozy shopping experience designed with a clean layout, approachable visuals and a simple user flow.</p><ul class="tags"><li>UI/UX Design</li><li>Web Design</li><li>E-commerce</li></ul></div>
+  </article>
+  <article class="project-box project-open" id="autospecs" tabindex="0" role="button" aria-label="Open autospecs project gallery" data-gallery="images/auto1.jpeg, images/auto2.jpeg, images/auto3.jpeg">
+    <img src="images/auto1.jpeg" alt="AutoSpecs project preview">
+    <div class="project-info"><span>02 · Automotive</span><h2>AutoSpecs</h2><p>An automotive web experience focused on making vehicle discovery and specifications easier to browse.</p><ul class="tags"><li>UI/UX Design</li><li>Web Design</li><li>Showcase</li></ul></div>
+  </article>
+  <article class="project-box project-open" id="kix" tabindex="0" role="button" aria-label="Open kix project gallery" data-gallery="images/kix1.png, images/kix2.png, images/kix3.png">
+    <img src="images/kix1.png" alt="KIX project preview">
+    <div class="project-info"><span>03 · Product / Brand</span><h2>KIX</h2><p>A bold digital concept combining product presentation, visual identity and a straightforward interface.</p><ul class="tags"><li>UI Design</li><li>Branding</li><li>Visual Design</li></ul></div>
+  </article>
+  <article class="project-box project-open" id="pimps" tabindex="0" role="button" aria-label="Open pimps project gallery" data-gallery="images/gym1.png, images/gym2.png, images/gym3.png">
+    <img src="images/gym1.png" alt="ERICK'S GYM project preview">
+    <div class="project-info"><span>04 · Creative</span><h2>ERICK'S GYM</h2><p>A mobile-friendly gym website designed to make signing up and finding classes effortless.</p><ul class="tags"><li>UI/UX Design</li><li>Branding</li><li>Creative Direction</li></ul></div>
+  </article>
+</section>
+</main>
+<div class="gallery-modal" id="projectGallery" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="galleryTitle">
+  <div class="gallery-panel">
+    <button class="gallery-back" id="galleryBack" type="button">← Back to projects</button>
+    <div class="gallery-layout">
+      <div class="gallery-visual">
+        <img id="galleryImage" src="" alt="">
+        <div class="gallery-controls">
+          <button id="galleryPrev" type="button" aria-label="Previous picture">←</button>
+          <span id="galleryCount">1 / 1</span>
+          <button id="galleryNext" type="button" aria-label="Next picture">→</button>
+        </div>
+      </div>
+      <div class="gallery-copy">
+        <span id="galleryCategory" class="eyebrow">PROJECT</span>
+        <h2 id="galleryTitle"></h2>
+        <p id="galleryDescription"></p>
+        <ul class="tags" id="galleryTags"></ul>
+        <p class="gallery-hint">Use the arrows to browse project images.</p>
+      </div>
+    </div>
+  </div>
+</div>
+<footer class="foot"><p>© 2026 Ella Mae Rivas</p></footer>
+<script src="js/script.js"></script>
+
+</body>
+</html>
